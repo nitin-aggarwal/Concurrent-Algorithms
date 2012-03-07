@@ -1,0 +1,1 @@
+The project is aimed to create different concurrent algorithms for problems like mutual exclusion, leader election etc. in Python.
