@@ -1,16 +1,16 @@
-# Lamport's Fast shared memory mutual exclusion algorithm for n processes
+#  Lamport's Fast Algorithm for n processes
  
-# Import required modules
+#  Import required modules
 import random
 import threading
 
-# Declare global variables required by Lamport's Fast Algorithm
+#  Declare global variables required by Lamport's Fast Algorithm
 x = 0
 y = 0
 b = []
 numThreads = 0
 
-# Define a class Fast for implementing Lamport's Fast Algorithm
+#  Define a class Fast for implementing Lamport's Fast Algorithm
 class Fast( threading.Thread ):
     def __init__(self, threadId, requestList):
         threading.Thread.__init__(self)

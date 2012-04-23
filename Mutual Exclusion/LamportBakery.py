@@ -1,6 +1,6 @@
-# Lamport's Bakery shared memory mutual exclusion algorithm for n processes
+#Lamport's Bakery Algorithm for n processes
  
-# Import required modules
+#Import required modules
 import random
 import threading
 
